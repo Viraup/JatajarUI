@@ -1,0 +1,19 @@
+/* @font-face {
+  font-family: VAZIR;
+  src: url("../font/Vazir.woff");
+}
+*{
+  font-family: VAZIR;
+} */
+@font-face {
+  font-family: IRANSans;
+  src: url(../font/IRANSansX-Medium.woff);
+}
+@font-face {
+  font-family: IRANSansN;
+  src: url(../font/IRANSansXFaNum-Medium.woff);
+}
+
+*{
+  font-family: IRANSansN,IRANSans;
+}
