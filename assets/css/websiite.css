@@ -1,0 +1,26 @@
+.info-icon {
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.info-icon::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #305302;
+    color: #386406;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+}
+
+.info-icon:hover::after {
+    opacity: 1;
+    visibility: visible;
+}

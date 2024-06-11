@@ -17,16 +17,16 @@
     <meta name="datedisplay_format" content="dd/mm/yyyy">
     <meta name="php_date_format" content="d/m/Y">
     <meta name="php_date_format" content="d/m/Y">
-    <meta property="og:url" content="# /rooms/12431">
+    <meta property="og:url" content=""> <!-- لینک صفحه ساخته شود-->
     <meta property="og:site_name" content="جات آجار">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="رزرو سوئیت جنگلی 4 - کلیبر">
-    <meta property="og:image" content="https://www.homsa.net/images/rooms/12431/157008804657__330x183.jpeg">
+    <meta property="og:title" content=""> <!--عنوان اقامتگاه-->
+    <meta property="og:image" content=""> <!--عکس اصلی اقاماتگاه اضافه شود-->
     <meta property="og:description"
-        content="تنها اقامتگاه جنگلی در شهرستان کلیبر دارای استخر شنا و آب چشمه،دارای طبیعتی بکر و چشم انداز وسیع جنگل">
-    <meta itemprop="image" src="https://www.homsa.net/images/rooms/12431/157008804657__330x183.jpeg">
-    <link rel="image_src" href="#" src="https://www.homsa.net/images/rooms/12431/157008804657__330x183.jpeg">
-    <meta name="twitter:image" content="https://www.homsa.net/images/rooms/12431/157008804657__330x183.jpeg">
+        content=""><!-- توضحیات کوتاه اقامتگاه توسط ادمین نوشته میشود-->
+    <meta itemprop="image" src=""> <!--عکس اصلی اقاماتگاه اضافه شود-->
+    <link rel="image_src" href="#" src=""> <!--عکس اصلی اقاماتگاه اضافه شود-->
+    <meta name="twitter:image" content=""> <!--عکس اصلی اقاماتگاه اضافه شود-->
     <meta name="twitter:url" content="#1"> <!-- لینک صفحه ساخته شود-->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="jatajar">
@@ -35,18 +35,14 @@
     <link rel="stylesheet" type="text/css" href="./assets\css\pages\rooms\calendar.css">
     <link rel="stylesheet" type="text/css" href="./assets\css\pages\rooms\lc_lightbox.css">
     <link rel="stylesheet" type="text/css" href="./assets\css\pages\rooms\p3.css">
-    <link rel="canonical" href="#1" /> <!-- لینک صفحه ساخته شود-->
-    <script>
-        var is_webview = null
-    </script>
+    <link rel="stylesheet" type="text/css" href="./assets\css\website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+
+    <link rel="canonical" href="#1" /> <!-- لینک صفحه ساخته شود-->
     <link href="./assets\css\vendor.min.css" rel="stylesheet" type="text/css">
     <link href="./assets\css\main.min.css" rel="stylesheet" type="text/css">
-
-
-
     <link href="./fonts\general\amenity_icons\style.css" rel="stylesheet" type="text/css">
-
     <link rel="search" type="application/opensearchdescription+xml" href="#" title="">
     <meta name="twitter:title" content="رزرو سوئیت جنگلی 4 - کلیبر">
     <meta name="twitter:site" content="جات آجار">
@@ -1972,7 +1968,17 @@
                                                         </span>
                                                     </span>
                                                 </div>
+                                                
                                                 <div id="listing_name_wrap">
+                                                    <!-- در صورتی که برچسب اقتصادی و یا VIP و یا هر موردی دیگری روی اقامتگاه توسط ادمین گذاشته شد در این اینجا نمایش داده شود-->
+                                                    <span id="overall_rating" class="room-badge">
+                                                        <span onclick="scrollToElement('sec-comments')"
+                                                            class="link-reset">
+                                                            <span class="rating-value" style="background:#7dc242"><span
+                                                                    class="rate-val">VIP/اقتصادی</span><i
+                                                                    class="icon rate-star-alt icon-star"
+                                                                    style="color:#fff"></i></span>
+                                                        </span>
                                                     <h1 class="overflow h3 row-space-2" id="listing_name">
                                                         رزرو سوئیت جنگلی 4
                                                     </h1>
@@ -2212,10 +2218,10 @@
 
                                                     <div class="col-md-4 lang-chang-label clrleft amenity-icon-wrap">
                                                         <div class="row-space-1 new_id activeamenities">
-                                                            <i
-                                                                class="icon custom-font-size h3 amenity-icon icon-TV"></i>
+                                                            <i class="fa fa-television"></i>
                                                             <span class="amenity-icon-title">
                                                                 <strong class="custom-font-size">تلویزیون</strong>
+                                                                <i class="fas fa-info-circle info-icon" title="دارای تلویزیون 72 اینچ"></i>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -2329,7 +2335,9 @@
                                                 </div>
 
 
-
+                                                <h5 class="amenity_group_titles">توضیحات تکمیلی</h5>
+                                                <!-- اگر میزبان توضیحات تکیمیلی نوشته بود این گزینه نمایش داده نشود-->
+                                                <strong class="custom-font-size"> ببخاری نفتی دارای بیش از 500 کیلو حرارت می باشد.....</strong>
                                             </div>
                                             <div class="collapse-trigger" status="collapsed" style="float: right">
                                                 <a class="expandable-trigger-more">
@@ -2383,6 +2391,10 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <h5 class="amenity_group_titles">توضیحات تکمیلی</h5>
+                                        <!-- اگر میزبان توضیحات تکیمیلی نوشته بود این گزینه نمایش داده نشود-->
+                                        <strong class="custom-font-size"> ببخاری نفتی دارای بیش از 500 کیلو حرارت می باشد.....</strong>
+
                                     </section>
                                     <hr>
 
@@ -2439,7 +2451,12 @@
                                                     <span class="room-info-value">ارائه مدرک محرمیت برای زوجین لازم
                                                         است</span>
                                                 </div>
+                                                
                                             </div>
+                                            <h5 class="amenity_group_titles">توضیحات تکمیلی</h5>
+                                            <!-- اگر میزبان توضیحات تکیمیلی نوشته بود این گزینه نمایش داده نشود-->
+                                            <strong class="custom-font-size"> ببخاری نفتی دارای بیش از 500 کیلو حرارت می باشد.....</strong>
+
                                             <div class="clearfix"></div>
 
 
@@ -2464,8 +2481,9 @@
                                                             <li><b>ایام نوروز:</b> قبل از 15 اسفند 20 درصد و بعد از 15
                                                                 اسفند تمام مبلغ رزرو کسر می شود</li>
                                                         </ul>
+                                                       
                                                     </div>
-
+                                                    
                                                     <div class="collapse-trigger" status="collapsed"
                                                         style="float: right">
                                                         <a class="collapse-trigger-more">
@@ -2488,6 +2506,7 @@
                                             </div>
 
                                         </div>
+                                        
                                     </section>
                                     <hr>
 
