@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="cache-control" content="no-store" />
+  <meta http-equiv="cache-control" content="must-revalidate" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  
+  
+  
+      <meta name="datepicker_format" content="dd/mm/yy">
+      <meta name="datedisplay_format" content="dd/mm/yyyy">
+  <meta name="php_date_format" content="d/m/Y">
+  <meta name="php_date_format" content="d/m/Y">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logos/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logos/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logos/favicon/favicon-16x16.png">
+  <link rel="shortcut icon" href="/images/logos/favicon/favicon.ico">
+  <link rel="manifest" href="/images/logos/favicon/site.webmanifest">
+      <link rel="canonical" href="#" /> <!-- Auto Link Generate -->
+  
+      <link rel="stylesheet" href="./assets/css/output.css" />
+      <link rel="stylesheet" href="./assets/css/font.css" />
+  <link href="./assets\css\vendor.min.css" rel="stylesheet" type="text/css">
+  <link href="./assets\css\main.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="./assets\css\pages\static\static_pages.css">
+
+
+      
+  
+      
+      
+  <link rel="search" type="application/opensearchdescription+xml" href="#" title="">
+  <meta name="twitter:title" content="درباره جات آجار">
+  <meta name="twitter:site" content="جات آجار">
+  <meta name="twitter:site:id" content="@jatajar">
+  <meta name="description" content="">
+  <meta name="twitter:description" content="">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#f5f5f5">
+  
+
+
+</head>
+
+  <body class="" ng-app="App">
+
+      <div id="header" class="makent-header  new  alt_header">
+          <header id="main_header" class="header--sm main-header     is-room-page ">
+              <nav id="main_nav" class="navbar navbar-expand-lg navbar-light container">
+  
+  
+                  <div class="navbar-item nav-logo" href="./">
+                      <a href="#">
+                          <img src="./assets/image/logo.png" class="logo-img" alt="Logo" height="37">
+                      </a>
+                  </div>
+  
+                  <span class="navbar-item header-searchbar">
+                      <form id="header_search_form" action="https://www.homsa.net/search" method="get" class="search-form"
+                          data-ajaxload="0">
+  
+                          <input type="hidden" name="source" value="mob">
+  
+                          <div class="searchbar__location-error d-none">لطفاً شهر مورد نظر خود را مشخص کنید.</div>
+  
+                          <div class="header-searchbar-wrap">
+  
+                              <span class="screen-reader-only">شهر مقصد، عنوان و یا شناسه اقامتگاه</span>
+  
+                              <input type="text" placeholder="شهر مقصد، عنوان و یا شناسه اقامتگاه" autocomplete="off"
+                                  name="q" id="header_search_location" class="input-large" value=""
+                                  data-json="https://www.homsa.net/cities.json"
+                                  data-search="https://www.homsa.net/search-location">
+                              <ul id="search__results" class="hidden-element"></ul>
+  
+                              <button type="submit" id="search-form--sm-btn" class="btn btn-primary ">
+                                  <svg viewBox="0 0 28 33" id="search_alt_icon" xmlns="http://www.w3.org/2000/svg"
+                                      style="display:block;fill:none;height:14px;width:11px;stroke:currentColor;stroke-width:6;overflow:visible"
+                                      aria-hidden="true" role="presentation" focusable="false">
+                                      <g fill="none">
+                                          <path
+                                              d="m13 24c6.0751322 0 11-4.9248678 11-11 0-6.07513225-4.9248678-11-11-11-6.07513225 0-11 4.92486775-11 11 0 6.0751322 4.92486775 11 11 11zm8-3 9 9">
+                                          </path>
+                                      </g>
+                                  </svg>
+  
+                              </button>
+  
+                              <div class="null-result d-none">
+                                  نتیجه ای یافت نشد
+                              </div>
+  
+                          </div>
+  
+                      </form>
+  
+                  </span>
+  
+  
+  
+                  <input type="hidden" id="count_text" value="اقامتگاه">
+                  <div class="navbar-item nav-user-menu">
+  
+                      <a class="btn listing-btn" href="./blog">
+                          وبلاگ
+                      </a>
+  
+  
+  
+  
+                      <div class="header-login-register">
+                          <a data-login-modal="" href="./login.html" data-redirect="">
+                              ورود
+                          </a>
+                          |
+                          <a href="./login-register.html" data-redirect="">
+                              ثبت‌ نام
+                          </a>
+                      </div>
+  
+  
+                      <span class="d-inline-block header-support">
+                          <?xml version="1.0"?>
+                          <svg xmlns="http://www.w3.org/2000/svg" height="512px" viewBox="0 0 512 512" width="512px"
+                              id="headphones_svg">
+                              <path
+                                  d="m95.332031 176.734375h-16.066406c-.003906 0-.003906 0-.007813 0-.003906 0-.003906 0-.007812 0-43.679688 0-79.25 35.539063-79.25 79.25v80.347656c0 43.707031 35.558594 79.269531 79.265625 79.269531h16.066406c25.914063 0 47.132813-20.953124 47.132813-47.132812v-144.601562c0-26.304688-21.351563-47.132813-47.132813-47.132813zm0 0" />
+                              <path
+                                  d="m432.75 176.734375c-.003906 0-.007812 0-.007812 0-.003907 0-.007813 0-.007813 0h-16.066406c-25.78125 0-47.136719 20.828125-47.136719 47.132813v144.601562c0 26.179688 21.222656 47.132812 47.136719 47.132812h16.066406c43.707031 0 79.265625-35.5625 79.265625-79.269531v-80.347656c0-43.710937-35.570312-79.25-79.25-79.25zm0 0" />
+                              <path
+                                  d="m416.667969 445.601562h-5.695313c-10.691406 21.542969-32.925781 36.398438-58.574218 36.398438h-4.300782c2.082032-5.308594 3.242188-11.089844 3.242188-17.128906 0-25.992188-21.152344-47.140625-47.140625-47.140625s-47.128907 21.148437-47.128907 47.140625c0 25.988281 21.140626 47.128906 47.128907 47.128906h48.199219c42.484374 0 78.558593-27.933594 90.84375-66.398438zm0 0" />
+                              <path
+                                  d="m411.34375 146.734375h5.128906c.066406 0 .128906-.003906.195313-.003906h16.0625c.050781 0 .097656.003906.148437.003906h9.5c-20.296875-84.082031-96.148437-146.734375-186.378906-146.734375-90.222656 0-166.085938 62.652344-186.382812 146.734375h9.480468c.050782 0 .101563-.003906.148438-.003906h16.082031c.066406 0 .128906.003906.195313.003906h5.128906c19.535156-67.355469 81.773437-116.734375 155.347656-116.734375 73.570312 0 135.8125 49.378906 155.34375 116.734375zm0 0" />
+                          </svg>
+  
+                          021 - 91099280
+                      </span>
+              </nav>
+  
+          </header>
+  
+  
+  
+          <div class="flash-container">
+          </div>
+          <style>
+              @media (max-width: 770px) {
+                  html[lang="fa"] .IconAlignment {
+                      margin-right: 0 !important;
+                  }
+              }
+          </style>
+  
+          
+      </div>
+
+  
+   
+</div>
+    <!-- MAIN -->
+    <div class="max-w-[1440px] mx-auto px-3">
+      <div class="my-1 lg:my-10 p-1 md:p-3">
+        <div class="md:flex w-full gap-x-7">
+          <div class="w-full md:w-8/12 lg:w-9/12">
+            <span class="flex flex-col py-2 px-3 mt-6 lg:mt-0 max-w-5xl rounded-2xl bg-white">
+              <div>
+                <div class="flex flex-wrap gap-3 text-xs opacity-75 py-1">
+                  <div class="flex">
+                    <div>تاریخ: </div>
+                    <div>1402/04/30</div>
+                  </div>
+                  <div class="flex">
+                    <div>نویسنده: </div>
+                    <div>امیررضا کریمی</div>
+                  </div>
+                  <div class="flex">
+                    <div>دسته بندی: </div>
+                    <div>تکنولوژی</div>
+                  </div>
+                  <div class="flex">
+                    <div>امتیاز: </div>
+                    <div>4.2</div>
+                  </div>
+                </div>
+              </div>
+              <img class="rounded-2xl my-3" src="./assets/image/aboute-me.jpg" alt="">
+              <div>
+                <div class="text-2xl opacity-95 py-3">تکنولوژی های مورد استفاده شرکت های بزرگ</div>
+                <div class="opacity-70 pb-3 leading-6 text-sm">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </div>
+                <div class="opacity-70 pb-3 leading-6 text-sm">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </div>
+              </div>
+            </span>
+            <!-- BOX COMMENTS -->
+            <div class="flex flex-col py-4 px-4 my-6 max-w-5xl rounded-2xl bg-white">
+              <!-- UO COMMENTS -->
+              <div>
+                <div>نظرات</div>
+                <div class="pr-5 opacity-70 text-xs">3نظر</div>
+              </div>
+              <!-- COMMENT -->
+              <div class="bg-gray-50 rounded-xl px-5 py-3 my-2">
+                <div class="flex items-center">
+                  <div>
+                    <img class="w-10" src="./assets/image/userNotImage.png" alt="">
+                  </div>
+                  <div class="text-xs md:text-sm opacity-60 pr-1">
+                    نوشته شده توسط امیررضا کریمی
+                  </div>
+                </div>
+                <div class="opacity-60 text-sm py-3">
+                  لورم است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.             
+                </div>
+                <div>
+                  <button class="mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                    پاسخ
+                  </button>
+                </div>
+                <!-- RESPONSE -->
+                <div class="bg-gray-100 rounded-xl pl-2 pr-5 sm:pr-8 py-3">
+                  <div class="flex items-center">
+                    <div>
+                      <img class="w-10" src="./assets/image/userNotImage.png" alt="">
+                    </div>
+                    <div class="text-xs md:text-sm opacity-60 pr-1">
+                      پاسخ داده شده توسط امیررضا کریمی  
+                    </div>
+                  </div>
+                  <div class="opacity-60 text-sm py-3">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحامه و مجله در ستون و سطرآنچنان که لازم است.             
+                  </div>
+                  <div>
+                    <button class="mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                      پاسخ
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-gray-50 rounded-xl px-5 py-3 my-2">
+                <div class="flex items-center">
+                  <div>
+                    <img class="w-10" src="./assets/image/userNotImage.png" alt="">
+                  </div>
+                  <div class="text-xs md:text-sm opacity-60 pr-1">
+                    نوشته شده توسط امیررضا کریمی
+                  </div>
+                </div>
+                <div class="opacity-60 text-sm py-3">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهو است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.             
+                </div>
+                <div>
+                  <button class="mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                    پاسخ
+                  </button>
+                </div>
+              </div>
+              <div class="bg-gray-50 rounded-xl px-5 py-3 my-2">
+                <div class="flex items-center">
+                  <div>
+                    <img class="w-10" src="./assets/image/userNotImage.png" alt="">
+                  </div>
+                  <div class="text-xs md:text-sm opacity-60 pr-1">
+                    نوشته شده توسط امیررضا کریمی
+                  </div>
+                </div>
+                <div class="opacity-60 text-sm py-3">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گ ستون و سطرآنچنان که لازم است.             
+                </div>
+                <div>
+                  <button class="mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                    پاسخ
+                  </button>
+                </div>
+                <!-- RESPONSE -->
+                <div class="bg-gray-100 rounded-xl pl-2 pr-5 sm:pr-8 py-3">
+                  <div class="flex items-center">
+                    <div>
+                      <img class="w-10" src="./assets/image/userNotImage.png" alt="">
+                    </div>
+                    <div class="text-xs md:text-sm opacity-60 pr-1">
+                      پاسخ داده شده توسط امیررضا کریمی  
+                    </div>
+                  </div>
+                  <div class="opacity-60 text-sm py-3">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکهلازم است.             
+                  </div>
+                  <div>
+                    <button class="mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                      پاسخ
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- BOX SENT COMMENT -->
+              <div>
+                <div class="mb-4">
+                  <label for="username" class="inline-block mb-2 ml-1 font-semibold text-xs text-slate-700">نام شما:</label>
+                  <input type="text" class="text-sm block w-full rounded-lg border border-gray-400 bg-white px-3 py-2 font-normal text-gray-700 outline-none focus:border-green-300"/>
+                </div>
+              </div>
+              <div class="mb-4">
+                <label for="mailTicket" class="inline-block mb-2 ml-1 font-semibold text-xs text-slate-700">نظر شما:</label>
+                <textarea cols="30" rows="5" class="text-sm block w-full rounded-lg border border-gray-400 bg-white px-3 py-2 font-normal text-gray-700 outline-none focus:border-green-300"></textarea>
+              </div>
+              <button class="inline-block px-8 py-2 ml-auto font-semibold text-center text-white bg-green-500 rounded-lg shadow-md text-xs">ارسال نظر</button>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 lg:w-3/12 max-w-xl mx-auto">
+            <div class="lg:block p-3 space-y-4 mx-2 md:ml-3 bg-white rounded-2xl">
+              <div class="opacity-90 border-b pb-3">
+                 مرتبط ترین مقاله ها:
+              </div>
+              <a href="#" class="flex flex-row items-center p-1">
+                <div class="md:ml-3  mb-3 md:mb-0">
+                  <img class="hover:scale-105 transition rounded-lg w-44" src="./assets/image/blog/1.jpg" alt="" />
+                </div>
+                <div class="w-full px-3 md:px-0">
+                  <div class="mx-auto text-sm h-10 opacity-90">معرفی لپ تاپ wat32</div>
+                  <div class="text-xs md:flex justify-start opacity-75 mx-auto md:mx-0 pb-3">
+                    <div>1402/04/30</div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="flex flex-row items-center p-1">
+                <div class="md:ml-3  mb-3 md:mb-0">
+                  <img class="hover:scale-105 transition rounded-lg w-44" src="./assets/image/blog/1.jpg" alt="" />
+                </div>
+                <div class="w-full px-3 md:px-0">
+                  <div class="mx-auto text-sm h-10 opacity-90">معرفی لپ تاپ wat32</div>
+                  <div class="text-xs md:flex justify-start opacity-75 mx-auto md:mx-0 pb-3">
+                    <div>1402/04/30</div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="flex flex-row items-center p-1">
+                <div class="md:ml-3  mb-3 md:mb-0">
+                  <img class="hover:scale-105 transition rounded-lg w-44" src="./assets/image/blog/1.jpg" alt="" />
+                </div>
+                <div class="w-full px-3 md:px-0">
+                  <div class="mx-auto text-sm h-10 opacity-90">معرفی لپ تاپ wat32</div>
+                  <div class="text-xs md:flex justify-start opacity-75 mx-auto md:mx-0 pb-3">
+                    <div>1402/04/30</div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="flex flex-row items-center p-1">
+                <div class="md:ml-3  mb-3 md:mb-0">
+                  <img class="hover:scale-105 transition rounded-lg w-44" src="./assets/image/blog/1.jpg" alt="" />
+                </div>
+                <div class="w-full px-3 md:px-0">
+                  <div class="mx-auto text-sm h-10 opacity-90">معرفی لپ تاپ wat32</div>
+                  <div class="text-xs md:flex justify-start opacity-75 mx-auto md:mx-0 pb-3">
+                    <div>1402/04/30</div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="flex flex-row items-center p-1">
+                <div class="md:ml-3  mb-3 md:mb-0">
+                  <img class="hover:scale-105 transition rounded-lg w-44" src="./assets/image/blog/1.jpg" alt="" />
+                </div>
+                <div class="w-full px-3 md:px-0">
+                  <div class="mx-auto text-sm h-10 opacity-90">معرفی لپ تاپ wat32</div>
+                  <div class="text-xs md:flex justify-start opacity-75 mx-auto md:mx-0 pb-3">
+                    <div>1402/04/30</div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="flex flex-row items-center p-1">
+                <div class="md:ml-3  mb-3 md:mb-0">
+                  <img class="hover:scale-105 transition rounded-lg w-44" src="./assets/image/blog/1.jpg" alt="" />
+                </div>
+                <div class="w-full px-3 md:px-0">
+                  <div class="mx-auto text-sm h-10 opacity-90">معرفی لپ تاپ wat32</div>
+                  <div class="text-xs md:flex justify-start opacity-75 mx-auto md:mx-0 pb-3">
+                    <div>1402/04/30</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="new-page-container footer-container" id="footer">
+
+      <div class="footer-wrapper">
+
+          <section class="footer-main">
+              <div class="footer-main-col about-site">
+
+                  <div class="site-logo about-row">
+
+                      <span class="screen-reader-only">
+                          جات آجار
+                      </span>
+                      </a>
+                  </div>
+
+                  <div class="site-about about-row">
+                      جات آجار سامانه‌ای قابل اعتماد برای تمام افرادی است که به دنبال ثبت، پیداکردن و رزرو اقامتگاه در
+                      سراسر ایران به صورت آنلاین هستند.
+                  </div>
+
+
+                  <div class="site-social about-row">
+
+
+
+                      <!-- instagram -->
+                      <a target="_blank" class="social-link" href="#">
+                          <svg class="insta-icon social-icon" xmlns="http://www.w3.org/2000/svg" version="1.1"
+                              id="Layer_1" x="0px" y="0px" viewBox="0 0 551.034 551.034"
+                              style="enable-background:new 0 0 551.034 551.034;" xml:space="preserve">
+                              <g>
+                                  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57"
+                                      x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
+                                      <stop offset="0" style="stop-color:#E09B3D" />
+                                      <stop offset="0.3" style="stop-color:#C74C4D" />
+                                      <stop offset="0.6" style="stop-color:#C21975" />
+                                      <stop offset="1" style="stop-color:#7024C4" />
+                                  </linearGradient>
+                                  <path class="insta-l" style=""
+                                      d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722   c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156   C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156   c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722   c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z" />
+
+                                  <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57"
+                                      x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
+                                      <stop offset="0" style="stop-color:#E09B3D" />
+                                      <stop offset="0.3" style="stop-color:#C74C4D" />
+                                      <stop offset="0.6" style="stop-color:#C21975" />
+                                      <stop offset="1" style="stop-color:#7024C4" />
+                                  </linearGradient>
+                                  <path class="insta-l2" style=""
+                                      d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517   S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083   s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z" />
+
+                                  <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="418.31" y1="4.57"
+                                      x2="418.31" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
+                                      <stop offset="0" style="stop-color:#E09B3D" />
+                                      <stop offset="0.3" style="stop-color:#C74C4D" />
+                                      <stop offset="0.6" style="stop-color:#C21975" />
+                                      <stop offset="1" style="stop-color:#7024C4" />
+                                  </linearGradient>
+                                  <circle class="insta-c" style="" cx="418.31" cy="134.07" r="34.15" />
+                              </g>
+                          </svg>
+                      </a>
+
+                      <!-- twitter -->
+
+
+
+
+
+                  </div>
+
+              </div>
+
+              <div class="footer-main-col page-links">
+                  <div class="page-link-group">
+                      <ul class="list-layout">
+                          <li><a href="#" class="f-txt ">چگونه میزبان شوم؟</a></li>
+                          <li><a href="#" class="f-txt ">قوانین و مقررات</a></li>
+                          <li><a href="./blog/" class=" f-txt">وبلاگ</a></li>
+                      </ul>
+                  </div>
+                  <div class="page-link-group">
+                      <ul class="list-layout">
+                          <li><a href="#" class="f-txt ">درباره جات آجار</a></li>
+                          <li><a href="#" class="f-txt ">تماس با ما</a></li>
+                          <li><a href="#" class="f-txt ">سوالات متداول</a></li>
+                      </ul>
+                  </div>
+              </div>
+
+              <div class="footer-main-col site-badges">
+                  <div id="footer_support_wrap">
+                      <span id="footer_support">
+                          <span id="support_icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="svg_headset">
+                                  <path
+                                      d="M120 203H80.481C87.157 112 163.326 40 256 40c73.334 0 139.692 46.19 165.125 114.939 3.832 10.359 15.336 15.65 25.697 11.819 10.359-3.833 15.651-15.337 11.819-25.697-15.158-40.976-42.087-76.04-77.874-101.402C344.157 13.714 301.013 0 256 0c-57.695 0-111.938 22.468-152.735 63.265C63 103.53 40.605 156.894 40.027 213.747 16.125 227.597 0 253.443 0 283v68c0 44.112 35.888 80 80 80h40c11.046 0 20-8.954 20-20V223c0-11.046-8.954-20-20-20zm-20 188H80c-22.056 0-40-17.944-40-40v-68c0-22.056 17.944-40 40-40h20v148z" />
+                                  <path
+                                      d="M432 203h-40c-11.046 0-20 8.954-20 20v209c0 11.028-8.972 20-20 20h-61v.634C284.178 440.331 271.064 432 256 432c-22.091 0-40 17.909-40 40s17.909 40 40 40c15.064 0 28.178-8.331 35-20.634V492h61c33.084 0 60-26.916 60-60v-1h20c44.112 0 80-35.888 80-80v-68c0-44.112-35.888-80-80-80zm40 148c0 22.056-17.944 40-40 40h-20V243h20c22.056 0 40 17.944 40 40v68z" />
+                              </svg>
+
+                          </span>
+                          <span id="support_number">
+                              <span id="cantact_support">
+                                  تماس با پشتیبانی
+                              </span>
+                              <span id="support_num">
+                                  021 - 91099280
+                              </span>
+                          </span>
+                      </span>
+                  </div>
+
+              </div>
+
+
+          </section>
+
+      </div>
+
+
+
+
+
+
+      </div>
+      </nav>
+
+      <div class="footer-legal">
+          <span class="footer-legal-txt">
+              تمامی حقوق برای وب سایت جات آجار محفوظ می باشد طراحی و توسعه ویراپ
+          </span>
+      </div>
+
+  </footer>
+  </body>
+  <!--DROPDOWNS FOR NAVBAR-->
+  <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+  <!--MOBILE NAVBAR-->
+  <script src="./assets/js/navbar.js"></script>
+</html>
